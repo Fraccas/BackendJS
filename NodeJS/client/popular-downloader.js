@@ -24,7 +24,3 @@ request('https://reddit.com/r/popular.json', (err, res, body) => {
         }
     });
 });
-
-// request(url, {encoding: 'binary'}, function(error, response, body) {
-//     fs.writeFile('downloaded.jpg', body, 'binary', function (err) {});
-//   });
