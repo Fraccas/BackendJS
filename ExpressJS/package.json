@@ -1,0 +1,15 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "REQUIRED\r Create a new project using npm init.\r Install express and save it to your package.json file using --save.\r Create an express server that responds to the root get request ('/') with \"Hello from the web server side...\".\r Listen on port 3000.\r Use express.static to serve files from a folder named public in the root of your project.\r Create an index.html file.\r Create a styles.css file in a css directory in public.\r Create an app.js file in a js directory in public.\r Create your own middleware using app.use that console.logs every req.url and passes flow to the next function\r ADVANCED\r Add Bootstrap to your index.html.\r Create a form that posts to a route on your express server.\r Write the values from the form post to a json file on your server.\r Remember to set the action of the form to your route.\r Change the method of the form to POST.\r Create a route /formsubmissions that reads the file and responds with the results.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
