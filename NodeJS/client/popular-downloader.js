@@ -16,7 +16,6 @@ request('https://reddit.com/r/popular.json', (err, res, body) => {
         if (path.extname(art) === '.jpg' || path.extname(art) === '.gif' || path.extname(art) === '.png') {
             request(art, {encoding: 'binary'}, (err, res, body) => {
                 // store media to downloads folder
-                console.log(item.data);
                 fs.writeFile(dataPath + id + path.extname(art), body, 'binary', err => {
                     if (err) console.log(err);
                 });
